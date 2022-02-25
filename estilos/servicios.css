@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@300;700;900&display=swap');
+
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px;
+    background-image: url(/imagenes/boxes-oil-portada.jpg);
+}
+
+body{
+    background-image: url(/imagenes/boxes5.jpg);
+    background-size: cover;
+}
+
+.jumbotron{
+    background-image: url(/imagenes/boxes5.jpg);
+    background-size: cover;
+    color:white;
+    text-align: center;
+    border-radius: 0;
+    margin:20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.encabezado{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.servicios-row{
+    padding:5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+}
+
+.card{
+    border: 5px solid #000;
+    background-color: grey;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform:scale(1.08);
+    transition: all 0.7s;
+}
+
+.footer-dark {
+    padding: 0px ;
+    color: silver;
+    
+    background-image: url(/imagenes/boxes-oil-portada.jpg);
+    background-size: cover;
+}
+
+.titulo2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 800;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+.footer-dark .item.social>a {
+    font-size: 50px;
+    width: 50px;
+    height: 40px;
+    line-height: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 70px ;
+    margin-top: 1px;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.2;
+}
+
+.footer-dark .copyright {
+    text-align: right;
+    padding-top: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin-bottom: 0
+}
+
